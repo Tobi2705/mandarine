@@ -1,0 +1,11 @@
+.body {
+    box-sizing: border-box;
+}
+
+.global-content {
+    background-color: #f55;
+}
+
+.h1 {
+    color: aqua;
+}
