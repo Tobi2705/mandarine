@@ -13,7 +13,7 @@ x('http://www.eslcafe.com/joblist/', 'dd', [{
 }])
     .paginate('.next_page@href')
     .limit(3)
-    .write ('../data/results.json');
+    .write ('results.json');
 
 
 //you have to start crawl.js to get new data ....node crawl.js
